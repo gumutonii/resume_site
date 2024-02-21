@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Software engineering</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="nav-section">
+            <div class="nav-content">
+                <a href="#" class="left-nav"><strong>software</strong>Engineering</a>
+                <a href="home.html">Projects</a>
+                <a href="home.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="experience.html">Expirience</a>
+                <a href="#Contact">Contact</a>
+            </div>
+        </div>
+        <div class="background-image"><span class="bg-text">software</span>Engineering</div>
+
+        <main>
+
+
+
+
+
+
+ <br><br><br><br><p>
+
+
+
+In high school, I focused my studies on software development, honing my skills in HTML, CSS, PHP, Bootstrap, and C++. These languages and frameworks are not just tools in my toolkit; they are the building blocks that allow me to bring my creative visions to life on the web. With HTML and CSS, I craft the structure and design of websites, ensuring they are both visually appealing and functional. PHP adds the dynamic and interactive elements, while Bootstrap streamlines the process, making responsive design second nature. C++ provides a strong foundation in programming logic, allowing me to tackle complex problems with efficiency. These skills are not just technical proficiency for me; they are the means through which I can create immersive online experiences that captivate and engage users.</p>
+                             
+                           
+                    </div>
+                </div>
+                <!--Contacts Section-->
+            </div>
+              
+                
+            </div>
+        </main>
+
+
+
+
+        <br><br><br><br>
+        <footer>
+            <span>Made by Gentille Umutoni   </a><span>
+                <br>
+        </footer>
+    </body>
+</html>
