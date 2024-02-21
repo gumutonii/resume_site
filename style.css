@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-section{
+    z-index: 1;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 70px;
+	background: white;
+	text-align: right;
+}
+.nav-content{
+    padding-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.left-nav{
+    color: green;
+	text-decoration: none;
+	font-size: 15px;
+    letter-spacing: 5px;
+    float: left;
+    cursor: pointer;
+    transition: background 1s;
+}
+a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 5px;
+}
+.nav-content a{
+    display: inline-block;
+	padding: 15px;
+    transition: background 1s;
+}
+.nav-content a:hover{
+    background: lightgrey;
+}
+.nav-content a:active{
+    background-color: grey;
+}
+.background-image{
+    background-image: url(image1.jpg);
+    padding: 20% 0;
+	margin-bottom: 30px;
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+	text-align: center !important;
+    background-position: center;
+	position: relative;
+	color: white;
+	font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	display: inline-block;
+}
+.bg-text{
+    background-color: black;
+    color: lightgrey;
+}
+.container,.container2{
+    margin-right: 40px;
+    margin-left: 40px;
+    background: white;
+}
+.project-name{
+    padding: 10px;
+    margin: 10px;
+
+}
+hr{
+    color: lightgrey;
+}
+.House-container1,
+.House-container2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-top: 34px;
+}
+.summer1,
+.summer2 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.house{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.grid1,
+.grid2 {
+    position: relative;
+    margin-right: 20px;
+}
+.about-info{
+   margin-top: 34px;
+   margin-bottom: 15px; 
+}
+.team-section{
+    width: 23%;
+    float: left;
+    padding: 0;
+    padding-bottom: 0%;
+    margin-right: 20px;
+}
+.team-name{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: bold;
+    margin-top: 10;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.p-name{
+    color: gray;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.button{
+    position: relative;
+	margin-top: 10;
+    margin-bottom: 13px;
+	background-color: rgb(208, 206, 206);
+	border: none;
+	color: black;
+	padding: 10px 22px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	width: 100%;
+    transition: background-color 1s;
+    cursor: pointer;
+}
+.button:hover {
+	background-color: grey;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 100%;
+
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+}
+input{
+    width: 100%;
+	height: auto;
+	font-size: 18px;
+    padding: 10px 18px;
+	border: 1px solid grey;
+    margin-bottom: 20px;
+}
+.contact-button{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: background-color 1s;
+}
+.contact-button:hover{
+    opacity: 0.7;
+    color: white;
+}
+
+.contact-button:active{
+    background-color: blueviolet;
+}
+footer{
+    background-color: black;
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 16px;
+}
+.footer-content{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+@media only screen and (max-width: 1000px) {
+    .nav-content {
+        text-align: center;
+    }
+
+    .left-nav {
+        float: none;
+    }
+
+    .background-image {
+        padding: 30% 0;
+    }
+
+    .House-container1,
+    .House-container2 {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .grid1,
+    .grid2 {
+        position:relative;
+        margin-bottom: 10px;
+    }
+
+    .team-section {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    /* Add more styles as needed for smaller screens */
+}
+
